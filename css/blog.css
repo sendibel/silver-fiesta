@@ -1,0 +1,81 @@
+<style>
+* {
+  box-sizing: border-box;
+  margin-left: 10px;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+  background-color: #716475;
+}
+
+#myVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  margin-top: 40%;
+  margin-bottom: 15%;
+}
+
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+.container {
+  background-color: black;
+}
+.tooltip-show {
+  cursor: help;
+  border-bottom: 1px dotted #222;
+}
+.post-body {
+  height: 400px;
+  overflow-y: auto;
+}
+
+.tooltip-show {
+  cursor: help;
+  border-bottom: 1px dotted #222;
+}
+.row {
+  padding-top: 20%;
+}
+.card-body {
+  background-color: #4D6475;
+}
+.pop {
+  padding-top: 15%;
+}
+.foo {
+  text-align: center;
+  padding-top: 5%;
+  /*padding-left: 35%;*/
+}
+.pag {
+  padding-top: 10%;
+  padding-left: 37%;
+ 
+}
