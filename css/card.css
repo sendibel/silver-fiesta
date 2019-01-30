@@ -1,0 +1,35 @@
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+}
+.footer {
+	text-align: center;
+	margin-bottom: 4px;
+}
+.row {
+    background-color: #706C63;
+
+}
+.card {
+    background-color: #706C63;
+    margin-left: 10%;
+}
+body {
+	background-color: #CC860A;
+}
+h1 {
+	text-align: center;
+}
+.pag {
+  padding-top: 10%;
+  padding-bottom: 30%;
+  padding-left: 40%;
+}
+.footer {
+  background-color: orange;
+  color: black;
+}
